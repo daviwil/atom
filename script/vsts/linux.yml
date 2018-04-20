@@ -1,0 +1,9 @@
+resources:
+- repo: self
+
+queue:
+  name: Hosted Linux Preview
+
+steps:
+- bash: |
+   script/build
